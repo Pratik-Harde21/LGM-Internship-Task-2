@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import UserCard from "./UserCard";
 import './css/navbar.css'
 import Spinner from "./Spinner";
+import "./css/userCard.css";
 
 
 export default function Navbar() {
@@ -31,9 +32,9 @@ export default function Navbar() {
                 {isLoader ? (<Spinner/>): (null)}
             <div>
                 {user.map((element) => {
-                    return <>
-                        <UserCard avatar={element.avatar} first_name={element.first_name} last_name={element.last_name} email={element.email} />
-                    </>
+                    return <div className="card" key={element.id}>
+                        <UserCard  avatar={element.avatar} first_name={element.first_name} last_name={element.last_name} email={element.email} />
+                    </div>
                 })}
             </div>
             <footer>
