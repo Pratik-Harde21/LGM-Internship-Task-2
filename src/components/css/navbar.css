@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Faster+One&family=Fredericka+the+Great&family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 92px;
+    background-image: linear-gradient(-45deg, #ec6693, #b48dff);
+}
+nav h2{
+    font-family: 'Yatra One', cursive;
+    margin: 28px 0 0px 39px;
+    font-size: 28px;
+    color: white;
+}
+.btn{
+    margin: 11px 12px 1px 78%;
+    width: 204px;
+    height: 62px;
+    background: #c8abf9;
+    color: white;
+    border: 2px solid #924fff;
+    border-radius: 19px;
+    font-size: 31px;
+    cursor: pointer;
+    font-family: 'Yatra One', cursive;
+}
+.btn:hover{
+    background: #b990fe;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    color: #F5F5F5;
+    background-color: #023047;
+    height: 80px;
+    text-align: center;
+}
+#p1{
+    font-family: cursive;
+    font-size: 120%;
+    margin: 7px 0;
+}
+#credit{
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFB703;
+}
+.social a{
+    cursor: pointer;
+    margin: 0 20px;
+    font-size: 17px;
+    
+}
+.social a:link{
+    color: #66BBCC;
+}
+.social a:visited{
+    color: #66BBCC;
+}
+.social a:hover{
+    color: #F5F5F5;
+}
